@@ -1,0 +1,14 @@
+.img-hotproduct::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 28px;
+  left: -30px;
+  top: 0;
+  background-color: #ef4444;
+  clip-path: polygon(30% 0, 100% 0, 100% 100%, 30% 100%, 100% 50%);
+}
+
+.product-detail > .swiper {
+  width: 100%;
+}

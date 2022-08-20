@@ -1,0 +1,24 @@
+.slide-paragraph {
+  overflow: hidden;
+}
+
+.textproduct {
+  animation: marquee 5s linear infinite;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.sort-whenbuy {
+  @apply absolute flex items-center justify-center w-6 h-6 rounded-full border border-red-400 bg-white -top-2 right-0;
+}
+
+.nav-bar__information .active {
+  @apply text-slate-300;
+}
